@@ -13,12 +13,7 @@ setInterval(tick, 1000);
 function tick() {
     document.getElementById("demo").innerHTML = ticker++;
 
-    if (ticker >= 10) {
-        ticker = 0;
-        update();
-    }
+    
 }
 
-function update() {
 
-}
